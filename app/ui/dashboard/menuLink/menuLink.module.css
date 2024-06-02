@@ -1,0 +1,33 @@
+.contain, .active {
+    background-color: #2e374a;
+    border-radius: 5px;
+
+}
+.container {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    margin-top: 8px;
+} 
+
+
+.Icon_Title {
+    display: flex;
+    padding: 10px;
+    width: 320px;
+}
+.Icon {
+    font-size: 23px;
+    margin-right: 22px;
+}
+.Title {
+    font-size: 13px;
+    margin-top: 3px;
+    font-weight: 500;
+
+}
+.Icon_Title:hover {
+  background-color: #2e374a;
+  border-radius: 5px;
+
+}

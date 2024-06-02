@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b7bac1;
+    margin-top: 30px;
+    padding-top: 3px;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: #151c2c;
+    
+}
+.logo {
+font-weight: 400;
+}

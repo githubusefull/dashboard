@@ -1,0 +1,51 @@
+.container {
+    color: #b7bac1;
+    padding: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #151c2c;
+
+}
+.title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #b7bac1;
+}
+.table {
+    width: 100%;
+}
+.table td{
+    padding: 8px;
+    margin-bottom: 5px;
+}
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.image {
+    border-radius: 5px;
+    background-color: aqua;
+}
+.status {
+    border-radius: 5px;
+    font-size: 13px;
+    color: #b7bac1;
+}
+.pending{
+    background-color: #f7cb7375;
+    padding: 3px;
+}
+.done{
+    background-color: #afd6ee75;
+    padding: 3px;
+
+}
+.cancelled{
+    background-color: #f7737375;
+    padding: 3px;
+
+}

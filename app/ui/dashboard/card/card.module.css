@@ -1,0 +1,37 @@
+.container {
+    color: #b7bac1;
+    background-color: #151c2c;
+    padding: 17px;
+    border-radius: 5px;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+.container:hover {
+    box-shadow: 0 0 4px #b7bac1; 
+  }
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600;
+}
+.numbers {
+    font-size: 18px;
+    font-weight: 600;
+}
+.detail {
+    font-size: 12px;
+    font-weight: 500;
+}
+.positive {
+    color: lime;
+    margin-right: 4px;
+    font-size: 14px;
+
+}
+.negative {
+    color: red;
+}

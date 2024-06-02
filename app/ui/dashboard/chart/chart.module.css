@@ -1,0 +1,17 @@
+.container {
+    color: #b7bac1;
+    padding: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    height: 250px;
+    background-color: #151c2c;
+
+}
+.title {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #b7bac1;
+}

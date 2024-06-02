@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tailwind Styles */
+.app {
+    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+
+.head_text {
+    @apply mt-5 text-4xl font-extrabold leading-[1.15] text-black sm:text-4xl;
+}
+
+  .dropdown {
+    @apply absolute right-0 top-full mt-1 w-full p-4 rounded-[5px] bg-black min-w-[150px] flex flex-col gap-2 justify-end items-end;
+  }
+  
+  .dropdown_link {
+    @apply text-sm  text-gray-600 hover:text-gray-300 font-medium;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  
+  .flex-start {
+    @apply flex justify-start items-start;
+  }
+  
+  .flex-end {
+    @apply flex justify-end items-center;
+  }
+  
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .userDetail {
+    display: flex;
+    flex-direction: column;
+  }
+  .username {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .usertitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+  }
+  .titles {
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    color: gray;
+  }
+
+  .body_app {
+    background-color:#182237;
+
+  }

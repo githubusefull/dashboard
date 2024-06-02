@@ -1,0 +1,35 @@
+.container {
+    color: #b7bac1;
+    font-size: 14px;
+    font-weight: 500;
+}
+.table {
+    width: 100%;
+    margin-top: 8px;
+}
+.table td{
+    padding: 10px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buttons {
+    gap: 10px;
+    display: flex;
+}
+
+.delete {
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+.view {
+    font-size: 20px;
+}
+.view:hover {
+    color: rgb(72, 72, 172);
+}
+.delete:hover {
+    color: rgb(185, 77, 77);
+}
